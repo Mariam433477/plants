@@ -5,12 +5,17 @@ import OurCategory from '../components/OurCategory'
 import Sale from '../components/Sale'
 import ReadyPrefectPlant from '../components/ReadyPrefectPlant'
 import Header from '../components/Header'
-
+import homeBg from "../assets/home-hero-bg.jpg";
 export default function Home() {
  
   return (
     <>
-    <Header/>
+    <Header
+        bgImage={homeBg}
+        title="Welcome to Urban Jungle Co."
+        subtitle="Discover the Beauty of Nature at Your Fingertips"
+        showButton={true}
+      />
        <Section/>
     <TrendingProducts/>
     <Sale/>

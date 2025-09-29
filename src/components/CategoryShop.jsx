@@ -19,13 +19,13 @@ export default function CategoryShop() {
 
    <div className="container">
            <div className="d-flex justify-content-around algin-items-center flex-wrap gap-4">
-             {data.map((d) => {
+             {data.map((d,index) => {
                return (
                  <MyCards
                    img={d.img}
                    title={d.title}
                    price={d.price}
-                   key={d.img}
+                   key={index}
                  />
                );
              })}

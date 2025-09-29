@@ -7,15 +7,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "../Pages/Contact";
 import About from "../Pages/About";
  
+ 
 export default function MainLayout() {
  
 
   return (
     <>
-    {/* <SharedLayout/>  */}
-{/* <Home/> */}
-
-{/* <Shop/> */}
+    
 
 <BrowserRouter>
 <Routes>
@@ -25,7 +23,6 @@ export default function MainLayout() {
 <Route path="shop" element={<Shop />}/>
 <Route path="about" element={<About/>}/>
 <Route path="contact" element={<Contact />}/>
-
 </Route >
 </Routes>
 </BrowserRouter>

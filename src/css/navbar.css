@@ -1,0 +1,27 @@
+
+.navbar-home {
+  background-color: transparent !important;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  color:#fff !important;
+}
+.navbar-home .nav-link {
+  color: #fff !important;
+}
+ 
+.navbar-default {
+  background-color: #ffffff !important;
+   color:#000 !important;
+}
+ 
+.navbar-default .nav-link {
+  color: #000 !important;
+}
+.navbar-home .nav-link:hover {
+  color: #28a745 !important;
+}
+.navbar-default .nav-link:hover {
+  color: #28a745 !important; }
