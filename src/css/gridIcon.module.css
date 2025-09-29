@@ -1,0 +1,11 @@
+.bgDiv{
+background-color: #ecf4d3;
+width: 50px;
+height: 50px;
+border-radius:50% ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ margin-bottom: 20px;
+}
