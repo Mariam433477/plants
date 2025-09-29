@@ -25,8 +25,7 @@ export default function CoreValues() {
     },
     {
       title: "Customer satisfaction",
-      subTitle:
-        "Happy customers are delighted because of the customer service",
+      subTitle: "Happy customers are delighted because of the customer service",
     },
     {
       title: "Simplicity interface",
@@ -41,15 +40,15 @@ export default function CoreValues() {
           Our Core Values that Drive
           <br /> Everything We Do
         </h1>
-       <div className="container py-5">
-        <div className="row g-4">
-          {data.map((d, index) => (
-            <div className="col-12 col-md-4" key={index}>
-              <SecCoreValue title={d.title} sTitle={d.subTitle} />
-            </div>
-          ))}
+        <div className="container py-5">
+          <div className="row g-4">
+            {data.map((d, index) => (
+              <div className="col-12 col-md-4" key={index}>
+                <SecCoreValue title={d.title} sTitle={d.subTitle} />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
       </div>
     </>
   );

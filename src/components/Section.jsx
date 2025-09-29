@@ -1,15 +1,15 @@
-import React from 'react'
- 
+import React from "react";
+
 import {
   faLock,
   faTruck,
   faBoxOpen,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
-import GridIcons from './GridIcons';
-import { icon } from '@fortawesome/fontawesome-svg-core';
+import GridIcons from "./GridIcons";
+import { icon } from "@fortawesome/fontawesome-svg-core";
 export default function Section() {
-     const data = [
+  const data = [
     {
       icon: faLock,
       title: "Secure Payment",
@@ -28,14 +28,20 @@ export default function Section() {
     },
   ];
   return (
-    <div className='container'>
-      <div className='d-flex justify-content-between'>
-{data.map((d,index)=>{
-  return <GridIcons icon={d.icon} title={d.title} subTitle={d.subTitle}  key={index}/>
-})}
-    
+    <div className="container">
+      <div className="d-flex justify-content-between">
+        {data.map((d, index) => {
+          return (
+            <GridIcons
+              icon={d.icon}
+              title={d.title}
+              subTitle={d.subTitle}
+              key={index}
+            />
+          );
+        })}
       </div>
-<hr/>
+      <hr />
     </div>
-  )
+  );
 }

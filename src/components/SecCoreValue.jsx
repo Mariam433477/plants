@@ -6,12 +6,12 @@ export default function SecCoreValue({ title, sTitle }) {
     <>
       <div className="d-flex align-items-start gap-3 p-3">
         <div className={sty.bg}>
-          <RiBox3Fill  color="white" size={30} />
+          <RiBox3Fill color="white" size={30} />
         </div>
-                <div>
-<p className="fw-bold fs-3"> {title}</p>
-<p>{sTitle}</p>
-          </div>
+        <div>
+          <p className="fw-bold fs-3"> {title}</p>
+          <p>{sTitle}</p>
+        </div>
       </div>
     </>
   );

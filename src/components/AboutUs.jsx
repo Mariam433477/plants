@@ -22,13 +22,13 @@ export default function AboutUs() {
               ensure their digital transformation is positioned for long-term
               success.”
             </p>
-          <div  className="d-flex justity-content-center align-items-center">
+            <div className="d-flex justity-content-center align-items-center">
               <img src={boy} alt="" width="60" />
-            <div className="mx-3 d-flex flex-column">
-              <h5>Karen Lynn</h5>
-              <p>Karen Lynn CEO & Co-founder @ Company</p>
+              <div className="mx-3 d-flex flex-column">
+                <h5>Karen Lynn</h5>
+                <p>Karen Lynn CEO & Co-founder @ Company</p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>

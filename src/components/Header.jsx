@@ -3,8 +3,7 @@
 // import styled from "../css/header.module.css";
 // import { MainButton } from "../Custom/MainButton";
 // import DarkNavBar from "./DarkNavBar";
- 
- 
+
 // export default function Header() {
 //   return (
 //    <div className={styled.background}>
@@ -26,7 +25,12 @@ import React from "react";
 import styled from "../css/header.module.css";
 import { MainButton } from "../Custom/MainButton";
 
-export default function Header({ bgImage, title, subtitle, showButton = true }) {
+export default function Header({
+  bgImage,
+  title,
+  subtitle,
+  showButton = true,
+}) {
   const backgroundStyle = {
     backgroundImage: `url(${bgImage})`,
   };

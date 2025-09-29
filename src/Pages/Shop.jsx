@@ -1,23 +1,21 @@
-import React from 'react'
- 
-import SectionShop from './../components/SectionShop';
- 
-import CategoryShop from '../components/CategoryShop';
-import ReadyPrefectPlant from './../components/ReadyPrefectPlant';
-import shopBg from "../assets/shop-bg.jpg";  
-import Header from '../components/Header';
+import React from "react";
+
+import SectionShop from "./../components/SectionShop";
+
+import CategoryShop from "../components/CategoryShop";
+import ReadyPrefectPlant from "./../components/ReadyPrefectPlant";
+import shopBg from "../assets/shop-bg.jpg";
+import Header from "../components/Header";
 export default function Shop() {
   return (
- <>
-     <Header
+    <>
+      <Header
         bgImage={shopBg}
         title="Our Products"
         subtitle="Find the Perfect Plant for Your Space"
-        showButton={false}   // زر الشراء غير ضروري هنا
+        showButton={false}  
       />
-   <CategoryShop/>
-   
- </>
-   
-  )
+      <CategoryShop />
+    </>
+  );
 }
