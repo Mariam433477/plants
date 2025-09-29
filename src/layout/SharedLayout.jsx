@@ -3,12 +3,14 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Outlet } from 'react-router-dom'
 import DarkNavBar from '../components/DarkNavBar'
+import ReadyPrefectPlant from '../components/ReadyPrefectPlant'
 
 export default function SharedLayout() {
   return (
      <>
       <DarkNavBar />
       <Outlet/>
+      <ReadyPrefectPlant/>
       <Footer/>
      </>
   )

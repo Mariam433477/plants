@@ -10,7 +10,7 @@ export default function Shop() {
  <>
    <SectionShop/>
    <CategoryShop/>
-   <ReadyPrefectPlant/>
+   
  </>
    
   )
