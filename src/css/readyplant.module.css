@@ -28,7 +28,7 @@
  
 @media (max-width: 576px) {
   .background {
-    height: 45vh;
+    height: 60vh;
   }
 
   .overlay h1 {
@@ -42,7 +42,7 @@
  
 @media (min-width: 577px) and (max-width: 992px) {
   .background {
-    height: 50vh;
+    height: 60vh;
   }
 
   .overlay h1 {
@@ -57,7 +57,7 @@
  
 @media (min-width: 1200px) {
   .background {
-    height: 70vh;
+    height: 60vh;
   }
 
   .overlay h1 {

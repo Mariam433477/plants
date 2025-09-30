@@ -21,7 +21,7 @@ export default function CategoryShop() {
           {data.map((d, index) => (
             <div
               key={index}
-              className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center"
+              className="col-12 col-sm-6 col-md-4 col-lg-4 d-flex justify-content-center"
             >
               <MyCards img={d.img} title={d.title} price={d.price} />
             </div>
