@@ -33,14 +33,13 @@ export default function Section() {
         {data.map((d, index) => {
           return (
             <div className="col-12 col-sm-6 col-lg-3 mb-4">
-                <GridIcons
-              icon={d.icon}
-              title={d.title}
-              subTitle={d.subTitle}
-              key={index}
-            />
+              <GridIcons
+                icon={d.icon}
+                title={d.title}
+                subTitle={d.subTitle}
+                key={index}
+              />
             </div>
-          
           );
         })}
       </div>

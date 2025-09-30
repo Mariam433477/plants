@@ -6,12 +6,10 @@ export default function AboutUs() {
   return (
     <div className="container my-5">
       <div className="row align-items-center">
-      
         <div className="col-12 col-md-6 mb-4 mb-md-0">
           <img src={img} alt="About Us" className="img-fluid rounded" />
         </div>
 
-       
         <div className="col-12 col-md-6 p-4 d-flex flex-column gap-4">
           <h1>We strive to provide our customers with the highest quality</h1>
           <p>
@@ -28,7 +26,12 @@ export default function AboutUs() {
           </p>
 
           <div className="d-flex align-items-center">
-            <img src={boy} alt="Karen Lynn" width="60" className="rounded-circle" />
+            <img
+              src={boy}
+              alt="Karen Lynn"
+              width="60"
+              className="rounded-circle"
+            />
             <div className="mx-3 d-flex flex-column">
               <h5 className="mb-0">Karen Lynn</h5>
               <p className="mb-0 small text-muted">

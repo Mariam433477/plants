@@ -18,7 +18,6 @@ export default function SectionFormAndMessage() {
   return (
     <div className="container py-5">
       <div className="row g-5 align-items-start">
-         
         <div className="col-12 col-md-4">
           <h1 className="mb-5">Send us a Message</h1>
           <div className="d-flex flex-column gap-4">
@@ -33,7 +32,6 @@ export default function SectionFormAndMessage() {
           </div>
         </div>
 
-         
         <div className="col-12 col-md-8">
           <MyForm />
         </div>

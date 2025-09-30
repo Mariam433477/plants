@@ -6,7 +6,6 @@ export default function OurMission() {
   return (
     <div className="container my-5">
       <div className="row align-items-center">
-        {/* النص */}
         <div className="col-12 col-md-6 p-4 d-flex flex-column gap-4">
           <h1>Our Mission</h1>
           <p>
@@ -32,7 +31,6 @@ export default function OurMission() {
           </div>
         </div>
 
-        {/* الصورة */}
         <div className="col-12 col-md-6 text-center">
           <img src={img} alt="Our Mission" className="img-fluid rounded" />
         </div>

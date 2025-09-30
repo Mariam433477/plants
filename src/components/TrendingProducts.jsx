@@ -17,7 +17,10 @@ export default function TrendingProducts() {
       <div className="container">
         <div className="row g-4 justify-content-center">
           {data.map((d, index) => (
-            <div className="col-12 col-sm-6 col-lg-4 d-flex justify-content-center" key={index}>
+            <div
+              className="col-12 col-sm-6 col-lg-4 d-flex justify-content-center"
+              key={index}
+            >
               <MyCards img={d.img} title={d.title} price={d.price} />
             </div>
           ))}

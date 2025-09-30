@@ -5,7 +5,8 @@ export default function CoreValues() {
   const data = [
     {
       title: "Passionate About Work",
-      subTitle: "Passion for work is enthusiasm and excitement for what you do.",
+      subTitle:
+        "Passion for work is enthusiasm and excitement for what you do.",
     },
     {
       title: "Creative Team Members",
@@ -14,12 +15,12 @@ export default function CoreValues() {
     },
     {
       title: "Innovative Solutions",
-      subTitle:
-        "Finding new ways of using existing concepts to deliver value.",
+      subTitle: "Finding new ways of using existing concepts to deliver value.",
     },
     {
       title: "Quality Products",
-      subTitle: "Product quality refers to how well a product satisfies customers.",
+      subTitle:
+        "Product quality refers to how well a product satisfies customers.",
     },
     {
       title: "Customer Satisfaction",

@@ -21,7 +21,7 @@ export default function DarkNavBar() {
 
   return (
     <Navbar
-     expand="lg"
+      expand="lg"
       data-bs-theme="light"
       className={`py-4 ${isShop ? "navbar-default" : "navbar-home"}`}
     >
@@ -35,9 +35,8 @@ export default function DarkNavBar() {
             decoding="async"
           />
         </Navbar.Brand>
-              <Navbar.Toggle aria-controls="main-navbar-nav"/>
+        <Navbar.Toggle aria-controls="main-navbar-nav" />
 
-        
         <Navbar.Collapse id="main-navbar-nav">
           <Nav className="ms-auto d-flex align-items-lg-center gap-lg-4">
             <NavLink
@@ -73,7 +72,6 @@ export default function DarkNavBar() {
               Contact
             </NavLink>
 
-            {/* Social icons */}
             <div className="d-flex gap-3 mt-3 mt-lg-0">
               <MdOutlineFacebook size={20} />
               <FaInstagram size={20} />

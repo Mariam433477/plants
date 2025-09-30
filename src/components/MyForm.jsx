@@ -23,7 +23,11 @@ export default function MyForm() {
 
         <Form.Group className="mb-3" controlId="formBasicMessage">
           <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows={4} placeholder="Write your message..." />
+          <Form.Control
+            as="textarea"
+            rows={4}
+            placeholder="Write your message..."
+          />
         </Form.Group>
 
         <div className="text-center mt-4">
