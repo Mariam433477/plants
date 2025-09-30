@@ -29,15 +29,18 @@ export default function Section() {
   ];
   return (
     <div className="container">
-      <div className="d-flex justify-content-between">
+      <div className="row text-center">
         {data.map((d, index) => {
           return (
-            <GridIcons
+            <div className="col-12 col-sm-6 col-lg-3 mb-4">
+                <GridIcons
               icon={d.icon}
               title={d.title}
               subTitle={d.subTitle}
               key={index}
             />
+            </div>
+          
           );
         })}
       </div>

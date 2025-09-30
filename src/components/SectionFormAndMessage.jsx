@@ -16,24 +16,28 @@ export default function SectionFormAndMessage() {
   ];
 
   return (
-    <>
-      <div className="container d-flex justify-content-between flex-wrap gap-5 py-5">
-        <div className="d-flex flex-column col-md-4">
-          <h1 className="mb-5">Send us Message</h1>
-          {contactInfo.map((info, index) => (
-            <SendMessage
-              key={index}
-              myIcon={info.myIcon}
-              type={info.type}
-              value={info.value}
-            />
-          ))}
+    <div className="container py-5">
+      <div className="row g-5 align-items-start">
+         
+        <div className="col-12 col-md-4">
+          <h1 className="mb-5">Send us a Message</h1>
+          <div className="d-flex flex-column gap-4">
+            {contactInfo.map((info, index) => (
+              <SendMessage
+                key={index}
+                myIcon={info.myIcon}
+                type={info.type}
+                value={info.value}
+              />
+            ))}
+          </div>
         </div>
 
-        <div className="col-md-7">
+         
+        <div className="col-12 col-md-8">
           <MyForm />
         </div>
       </div>
-    </>
+    </div>
   );
 }

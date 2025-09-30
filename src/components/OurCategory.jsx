@@ -15,10 +15,12 @@ export default function OurCategory({}) {
     <>
       <h1 className="text-center my-5">Our Categories</h1>
       <div className="container mb-5">
-        <div className="d-flex justify-content-around">
-          {data.map((d, index) => {
-            return <SectionOfCat img={d.img} title={d.title} s key={index} />;
-          })}
+        <div className="row g-4 justify-content-center">
+          {data.map((d, index) => (
+            <div className="col-12 col-sm-6 col-lg-3 d-flex justify-content-center" key={index}>
+              <SectionOfCat img={d.img} title={d.title} />
+            </div>
+          ))}
         </div>
       </div>
     </>

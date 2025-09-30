@@ -16,20 +16,15 @@ export default function CategoryShop() {
   ];
   return (
     <>
-      <div className="container mt-5">
-        <div className="d-flex justify-content-around algin-items-center flex-wrap gap-4">
-          {data.map((d, index) => {
-            return (
-              <MyCards
-                img={d.img}
-                title={d.title}
-                price={d.price}
-                key={index}
-              />
-            );
-          })}
-        </div>
+     <div className="container my-5">
+      <div className="row g-4 justify-content-center">
+        {data.map((d, index) => (
+          <div key={index} className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+            <MyCards img={d.img} title={d.title} price={d.price} />
+          </div>
+        ))}
       </div>
+    </div>
     </>
   );
 }

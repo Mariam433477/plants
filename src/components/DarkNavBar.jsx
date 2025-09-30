@@ -21,6 +21,7 @@ export default function DarkNavBar() {
 
   return (
     <Navbar
+     expand="lg"
       data-bs-theme="light"
       className={`py-4 ${isShop ? "navbar-default" : "navbar-home"}`}
     >
@@ -34,11 +35,14 @@ export default function DarkNavBar() {
             decoding="async"
           />
         </Navbar.Brand>
-        <div className="row">
-          <Nav className={`col-6`}>
+              <Navbar.Toggle aria-controls="main-navbar-nav"/>
+
+        
+        <Navbar.Collapse id="main-navbar-nav">
+          <Nav className="ms-auto d-flex align-items-lg-center gap-lg-4">
             <NavLink
               className={({ isActive }) =>
-                isActive ? "nav-link text-success" : "nav-link"
+                "nav-link" + (isActive ? " active" : "")
               }
               to="/"
             >
@@ -46,7 +50,7 @@ export default function DarkNavBar() {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "nav-link text-success" : "nav-link"
+                "nav-link" + (isActive ? " active" : "")
               }
               to="/shop"
             >
@@ -54,7 +58,7 @@ export default function DarkNavBar() {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "nav-link text-success" : "nav-link"
+                "nav-link" + (isActive ? " active" : "")
               }
               to="/about"
             >
@@ -62,21 +66,22 @@ export default function DarkNavBar() {
             </NavLink>
             <NavLink
               className={({ isActive }) =>
-                isActive ? "nav-link text-success" : "nav-link"
+                "nav-link" + (isActive ? " active" : "")
               }
               to="/contact"
             >
               Contact
             </NavLink>
 
-            <div className="d-flex gap-2 justify-content-center align-items-center ">
-              <MdOutlineFacebook />
-              <FaInstagram />
-              <FaYoutube />
-              <FaXTwitter />
+            {/* Social icons */}
+            <div className="d-flex gap-3 mt-3 mt-lg-0">
+              <MdOutlineFacebook size={20} />
+              <FaInstagram size={20} />
+              <FaYoutube size={20} />
+              <FaXTwitter size={20} />
             </div>
           </Nav>
-        </div>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

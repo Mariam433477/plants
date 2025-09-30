@@ -1,4 +1,4 @@
-.bg {
+/* .bg {
   background-color: #ecf4d3;
   width: 70px;
   height: 70px;
@@ -6,4 +6,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+.bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ecf4d3;  
+  color: #4a7c59;  
+  font-size: 20px;
+  flex-shrink: 0;  
 }

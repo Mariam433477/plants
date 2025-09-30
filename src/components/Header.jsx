@@ -39,9 +39,9 @@ export default function Header({
     <div className={styled.background} style={backgroundStyle}>
       <div className={styled.overlay}>
         <div className="text-light d-flex flex-column justify-content-center align-items-center min-vh-100">
-          <p className="fs-4">{title}</p>
+          <p className={styled.title}>{title}</p>
           <p className={styled.sizePara}>{subtitle}</p>
-          {showButton && <MainButton>Shop Now</MainButton>}
+          {showButton && <MainButton className="mt-4">Shop Now</MainButton>}
         </div>
       </div>
     </div>

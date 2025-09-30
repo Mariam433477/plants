@@ -3,7 +3,6 @@ import Section from "../components/Section";
 import TrendingProducts from "../components/TrendingProducts";
 import OurCategory from "../components/OurCategory";
 import Sale from "../components/Sale";
-import ReadyPrefectPlant from "../components/ReadyPrefectPlant";
 import Header from "../components/Header";
 import homeBg from "../assets/home-hero-bg.jpg";
 export default function Home() {
